@@ -1,0 +1,3 @@
+#!/bin/bash
+
+GOARCH=386 GOOS=windows go build -ldflags -H=windowsgui
