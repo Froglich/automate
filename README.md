@@ -40,10 +40,10 @@ Day of week is given as a number between 1 and 7, where 1 is monday and 7 is sun
 30 7 * * * command
 ```
 
-#### Run a job at midning at the first day of every month
+#### Run a job at midnight on the first day of each month
 
 ```
-* 0 1 * * command
+0 0 1 * * command
 ```
 
 #### Run a job every 5 minutes
