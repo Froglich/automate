@@ -172,12 +172,12 @@ func tabTasks() {
 			log.Printf("error opening crontab.txt: '%v'", err)
 			return
 		}
-		defer f.Close()
 
 		content, err := io.ReadAll(f)
 		if err != nil {
 			log.Printf("error reading crontab.txt: '%v'", err)
 		}
+		f.Close()
 
 		lines := strings.Split(string(content), "\n")
 		for _, l := range lines {
