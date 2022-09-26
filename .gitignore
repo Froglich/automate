@@ -1,6 +1,8 @@
-weekly
-daily
-hourly
+day
+hour
+minute
+month
+week
 *exe
 *txt
 automate
